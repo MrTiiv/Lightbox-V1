@@ -332,13 +332,13 @@ bool loadManifest(String& firmwareUrl, String& firmwareVersion,
   firmwareMd5 = manifestString(manifest, "md5");
 
   if (firmwareVersion.isEmpty() || firmwareName.isEmpty()) {
-    setStatus("Fehler: Versionsnummer oder Versionsname fehlt im Manifest");
+    setStatus("Kein neues Update vorhanden");
     return false;
   }
 
   if (!firmwareUrl.startsWith("https://") &&
       !firmwareUrl.startsWith("http://")) {
-    setStatus("Fehler: Keine gueltige Firmware-URL im Manifest");
+    setStatus("Kein neues Update vorhanden");
     return false;
   }
 
@@ -386,7 +386,7 @@ void performFirmwareUpdate() {
 
   if (firmwareVersion == FW_VERSION || firmwareName == NAME_VERSION) {
     enableRetry(
-        "Kein Update: Versionsnummer und Versionsname muessen neu sein");
+        "Kein neues Update vorhanden");
     return;
   }
 
