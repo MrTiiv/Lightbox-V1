@@ -50,7 +50,7 @@ constexpr uint16_t LED_COUNT_2 = 8; // LED STRIP COUNT
 
 // ### OTA UPDATE URL ####
 constexpr char OTA_MANIFEST_URL[] =
-    "https://raw.githubusercontent.com/MrTiiv/ESP32OTATEST/refs/heads/main/update%2Cjson";
+    "https://raw.githubusercontent.com/MrTiiv/LightboxHW1OTA/refs/heads/main/update%2Cjson";
 // ### OTA UPDATE URL END ####
 
 // #### LICENCE ####
