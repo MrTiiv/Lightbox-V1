@@ -11,8 +11,21 @@ This Project is released under the [MIT License](https://github.com/MrTiiv/Light
 
 This Project was made with all the love I am legally allowed to give. 
 
+## Table of Contents
 
-
+| No. | Section | Contents |
+|:---:|---|---|
+| 1 | [AI Transparency](#ai-transparency) | Information about the use of AI |
+| 2 | [Pictures of the Lightbox](#pictures-of-the-lightbox) | Photos of the finished lightboxes |
+| 3 | [Manual](#manual) | Instructions for operating the lightbox |
+| 3.1 | [Main Menu](#main-menu) | Available settings and menu options |
+| 3.2 | [Colors](#colors) | List of selectable LED colors |
+| 3.3 | [Animations](#animations) | List of available LED effects |
+| 3.4 | [OTA Mode](#ota-mode) | Wireless firmware update instructions |
+| 4 | [Hardware](#hardware) | Hardware components used in the project |
+| 5 | [Electrical Diagram](#electrical-diagram) | Wiring and electrical schematic |
+| 6 | [Used Libraries](#used-libraries) | Software libraries and versions |
+| 7 | [End](#end) | Final notes and additional links |
 
 
 ## AI Transparency
