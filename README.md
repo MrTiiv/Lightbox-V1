@@ -198,7 +198,7 @@ The following table lists all hardware components used in this project.
 | ESPUI | 2.2.4 | Lukas Bachschwell |
 | ESP Async WebServer | 3.12.1 | ESP32Async |
 | IRremote | 4.7.1 | shirriff, z3t0, ArminJo |
-| PLCBlocks | 1.0.0 | MrTiiv |
+| [PLCBlocks](https://github.com/MrTiiv/ArduinoLib-PLCBlocks) | 1.0.0 | MrTiiv |
 | TM1637 Driver | 2.2.1 | AKJ |
 | WS2812FX | 1.4.7 | Harm Aldick |
 | ezBuzzer | 1.0.2 | ArduinoGetStarted.com |
