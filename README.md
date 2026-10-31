@@ -156,7 +156,7 @@ Press "#" to start OTA mode.
 (LEDs are using the [WS2812fx Library from kitesurfer](https://github.com/kitesurfer1404/WS2812FX))
 
 ### OTA Mode
-Starting OTA mode turns off the top LED strip and activates a scanning effect on the bottom LED strip.
+Starting OTA mode turns off the top LED strip and activates a scanning effect on the bottom LED strip. (There is a Visual bug with this, see [Issue #1](https://github.com/MrTiiv/Lightbox-V1/issues/1) )
 
 The lightbox creates a Wi-Fi hotspot named "Very Cool Lightbox". The password is "madewithlove"
 
